@@ -1,0 +1,530 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-size: 10px;
+}
+.root{
+    max-width: 1150px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: Poppins, sans-serif;
+    font-size: 10px;
+}
+
+/* TYPOGRAPHY */
+.text-block h1{
+    font-size: 7rem;
+    color: #203152;
+    font-weight: bolder;
+}
+.text-block p{
+    font-size: 2.5rem;
+    color: #4b5871; 
+    line-height: 2.5em;
+    
+}
+
+.text-block3 p{
+        max-width: 90%;
+        font-size: 3rem;
+        color: #4b5871; 
+        line-height: 1.5em;
+        
+    }
+
+/* LAYOUT */
+
+header{
+    display: block;
+    height: 80px;
+    background: #fff;
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 90%;
+    padding: 0 130px;
+ }
+
+ .navbar{
+     display: flex;
+     justify-content: space-between;
+     width: 90%;
+     align-items: flex-end;
+ }
+
+ .logo{
+     position: relative;
+     width: 20%;
+ }
+
+ .logo img{
+     width: 10em;
+ }
+ .navbar a{
+     text-decoration: none;
+     color: #4c576b;
+     font-size: 1.6rem;
+     font-weight: 400;
+ }
+ .navbar ul{
+     list-style: none;
+     display: grid;
+     grid-auto-flow: column;
+     grid-gap: 4.5em;
+     padding: 0 1em;
+ }
+.navbar li{
+    margin-top: 3em;
+    padding: 0.1em 0.5em;
+}
+.navbar a:hover{
+    background: #4c576b
+};
+
+
+
+.section img:hover{
+    background-color: rgba(0, 0, 0, 0.04);
+    border: hidden;
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+          0px 4px 4px 0px rgba(0, 0, 0, 0.14),
+          0px 2px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+
+.section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 0.5em;
+    margin: 3.5em 0;
+}
+.margin{
+    padding-top: 10em;
+}
+.text-block{
+    max-width: 38%;
+}
+.video-block{
+    max-width: 55%;
+}
+
+.section video{
+    max-width: 100%;
+}
+.text-block h1{
+    padding: 0;
+    margin: 0;
+    line-height: 1.3em;
+}
+.text-block1 p{
+     padding: 1em 0;
+}
+
+#horizonalrule{
+    color: #203152;
+    background: #203152;
+    border: 0.2em solid;
+    width: 1.2em;
+    height: 0.3em;
+    border-radius: 1em;
+    
+}
+
+.store{
+    padding: 8em 0;
+}
+
+.section a{  
+    text-decoration: none;
+    padding: 1em 0;
+    padding-right: 2em;
+    
+  }
+  
+.section a img{
+    transition: 0.5s;
+    border-radius: 30%;
+    height: auto;
+    cursor: pointer;
+    max-width: 6em;
+
+}
+
+
+
+.million{
+    font-size: 2.5rem;
+    color: #203152;
+    margin: -1.4em 0; 
+}
+
+.million span{
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+.section2{
+    padding: 10em 0;
+}
+
+.text-block2{
+    max-width: 45%;
+}
+.text-block2 p{
+    line-height: 1em;
+    max-width: 70%;
+}
+.video-block2{
+    max-width: 45%;
+}
+
+.text-block3{
+    max-width: 45%;
+}
+
+.video-block3{
+    max-width: 50%;
+}
+
+.feature{
+    margin: 5em 10em;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.glow{
+    border-radius: 2.5em;
+    color: #fff;
+    box-shadow: 0 5px 20px rgb(0 0 0 / 10%);
+    
+
+}
+ .textcard{
+     width: 45%; 
+    z-index: 4;
+ }
+ 
+.textcard h1{
+    font-size: 5.4em;
+    color: #203152;
+    line-height: 1.3em;
+    font-weight: bolder;
+    max-width: 80%;
+} 
+.textcard2{
+    margin-left: 20em;
+    padding: 10em 0;
+}
+.passtext{
+    width: 50%;
+   
+}
+.passtext h1{
+    border: solid 1 px magenta;
+    max-width: 100%;
+}
+
+.videocard{
+    position: relative;
+    width: 45%;
+    height: 100%;
+    margin-bottom: -2em;
+}
+
+.passbook{
+    margin-bottom: 0em;
+
+}
+
+.videocard video{
+    position: relative;
+    top: 3em;
+    left: 3em;
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.passbook video{
+    width: 80%;
+    height: 100%;
+}
+
+
+.glow2{
+    justify-content: space-between;
+    height: 58em;
+    overflow: hidden;
+    padding-left: 0;
+}
+
+.videocard2{
+    width: 40%;
+    height: 100%;
+    margin-bottom: 0em;
+}
+
+.videocard2 video{
+    position: relative;
+    top: 0em;
+    left: 0em;
+    width: 130%;
+    height: 110%;
+    object-fit: cover;
+}
+
+
+.blackcard{
+    display: block;
+    box-shadow: 5px 5px 20px rgb(0 0 0 / 10%);
+    border-radius: 20px;
+    background: #000;
+    display: flex;
+    align-items: center;
+}
+.white-text{
+    width: 80%;
+    padding-left: 5em;
+    margin: 10em 0;
+}
+
+.white-text h1{
+    font-size: 5.8em;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.5em;
+}
+
+
+.feature4{
+    padding: 60px 110px;
+    /* display: grid;
+    grid-template-columns: 1fr  1fr;
+    grid-template-areas: "card whitecard";
+    grid-gap: 2.5em; */
+    display: flex;
+    justify-content: space-between;
+    
+}
+.card{
+    max-width: 48%;
+    /* grid-area: card;
+    grid-column: 1/2; */
+    border-radius: 25px;
+    background: #6d3afe;
+    color: #fff;
+    box-shadow: 0 5px 20px rgb(0 0 0 / 10%);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7.8em 0;
+}
+
+
+
+.card p{
+    font-size: 5.4em;
+    color: #fff;
+    line-height: 1.3em;
+    font-weight: bolder;
+    padding-left: 1em;
+    margin: 5px;
+}
+
+
+.whitecard{
+    /* grid-column: 2/3;
+    grid-area: whitecard; */
+    max-width: 48%;
+    border-radius: 25px;
+    background: #fff;
+    box-shadow: 0 5px 20px rgb(0 0 0 / 10%);
+    height: 100%;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 0 4em 0;
+    overflow: hidden;
+}
+
+.whitecard p{
+    font-size: 3.4rem;
+    color: #633dea;
+    line-height: 1.3em;
+    font-weight: 700;
+    width: 80%; 
+    height: 80%;
+}
+.card-p p{
+    font-size: 5.4rem;
+}
+.whitecard img{
+    display: relative;
+    margin-left: 8em;
+    object-fit: cover;
+    object-position: -1% 0;
+    width: 35em;
+    
+}
+.whitecard video{
+    padding-top: 4em;
+    display: relative;
+    margin-left: 8em;
+    object-fit: cover;
+    object-position: -1% 0;
+    width: 35em;
+    
+}
+
+.orange-card{
+    background:#ff7a6c;
+    
+}
+.orange-card p{
+    max-width: 80%;
+    padding-left: 0;
+    margin: 0;
+}
+.orange-card div{
+    position: relative;
+    right: 7em;
+    top: 5em;
+    padding-bottom: 1em;
+}
+.orange-card div p{
+    max-width: 100%;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 2.5em;
+}
+
+.nopadding{
+    padding-top: 2em;
+}
+.nopadding p{
+    max-width: 100%;
+}
+
+
+.midtext div{
+    max-width: 80%;
+    margin: 1em auto;
+}
+.midtext p{
+    color: #203152;
+    font-size: 6.4rem;
+    line-height: 0.3em;
+    font-weight: 700;
+    text-align: center;
+    white-space: pre;
+}
+
+.sliceepic{
+    background:#15cf74;
+    padding: 0;
+    justify-content: space-between;
+    padding-left: 3em;
+    
+}
+
+.sliceepicimg img{
+    width: 50em;
+}
+
+.epic{
+    /* display: flex;
+    flex-direction: column; */
+    width: 42%;
+    padding: 5em 0 0 0;
+}
+.sliceepictext{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.sliceepictext p{
+    font-size: 2em;
+}
+
+.sliceepictext h1{
+    color: #fff;
+    line-height: 0.4em;
+}
+
+.epic a{
+    text-decoration: none;
+    padding: 0 1em;
+}
+.epic img:hover{
+    border-radius: 1em;
+    background-color: rgba(0, 0, 0, 0.04);
+}
+
+footer{
+    background: #4a3083;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    text-align: center;
+}
+
+footer h1{
+    color: #fff;
+    font-size: 3rem;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.5em;
+}
+
+
+footer a{
+    text-decoration: none;
+    filter: invert(1);
+    filter: brightness(4000%);
+    
+}
+footer i:hover{
+    transform: scale(0.6) translate(0px);
+    
+}
+
+footer i{
+    filter: grayscale(1);
+    transform: scale(1);
+    transition: 0.5s;
+}
+
+@font-face {
+    font-family: 'fontello';
+    src: url('./media/font/fontello.eot?73955942');
+    src: url('./media/font/fontello.eot?73955942#iefix') format('embedded-opentype'),
+         url('./media/font/fontello.woff?73955942') format('woff'),
+         url('./media/font/fontello.ttf?73955942') format('truetype'),
+         url('./media/font/fontello.svg?73955942#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  .demo-icon {
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4em;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1em;
+    margin:0 1em 2em 1em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
