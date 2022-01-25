@@ -34,22 +34,22 @@
 
 /* LAYOUT */
 
-header{
-    display: block;
-    height: 80px;
-    background: #fff;
-    z-index: 1000;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 90%;
-    padding: 0 130px;
- }
+header {
+  display: block;
+  height: 80px;
+  background: #fff;
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 1150px;
+  padding: 0 130px;
+}
 
  .navbar{
      display: flex;
      justify-content: space-between;
-     width: 90%;
+ 
      align-items: flex-end;
  }
 
